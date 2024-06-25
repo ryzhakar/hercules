@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "hercules"
+version = "0.1.0"
+description = ""
+authors = ["Arthur Ryzhak <ryzhakar@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+PyYAML = ">6"
+matplotlib = ">0"
+numpy = ">0"
+pandas = ">0"
+scipy = ">0"
+protobuf = ">0"
+munch = ">0"
+hdbscan = ">0"
+seriate = ">0"
+fastdtw = ">0"
+python-dateutil = ">0"
+lifelines = ">0"
+tqdm = ">0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
